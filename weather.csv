@@ -1,41 +1,41 @@
-season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
-1950,1,silverstone,Sunny, mild, dry.,1,0,0,0,0
+season,round,circuit,weather,warm,cold,dry,wet,cloudy
+1950,1,silverstone,Sunny, mild, dry.,0,0,1,0,0
 1950,2,monaco,not found,0,0,0,0,0
 1950,3,indianapolis,Rainy,0,0,0,1,0
 1950,4,bremgarten,Warm, dry and sunny,1,0,1,0,0
 1950,5,spa,Warm, dry and sunny,1,0,1,0,0
-1950,6,reims,Hot and sunny,1,0,0,0,0
-1950,7,monza,Warm, hot and sunny,1,0,0,0,0
+1950,6,reims,Hot and sunny,1,0,1,0,0
+1950,7,monza,Warm, hot and sunny,1,0,1,0,0
 1951,1,bremgarten,Overcast, rain,0,0,0,1,0
-1951,2,indianapolis,Warm and sunny,1,0,0,0,0
+1951,2,indianapolis,Warm and sunny,1,0,1,0,0
 1951,3,spa,Sunny, Mild, Dry,0,0,1,0,0
-1951,4,reims,Sunny, Hot, Dry,0,0,1,0,0
+1951,4,reims,Sunny, Hot, Dry,1,0,1,0,0
 1951,5,silverstone,Mild, Dry,0,0,1,0,0
 1951,6,nurburgring,Sunny, Mild, Dry,0,0,1,0,0
 1951,7,monza,Warm and sunny,1,0,0,0,0
-1951,8,pedralbes,Hot, Dry,0,0,1,0,0
+1951,8,pedralbes,Hot, Dry,1,0,1,0,0
 1952,1,bremgarten,Sunny,1,0,0,0,0
-1952,2,indianapolis,Warm and sunny,1,0,0,0,0
+1952,2,indianapolis,Warm and sunny,1,0,1,0,0
 1952,3,spa,Rain,0,0,0,1,0
 1952,4,essarts,Rain,0,0,0,1,0
 1952,5,silverstone,Overcast, dry.,0,0,1,0,0
-1952,6,nurburgring,Sunny,1,0,0,0,0
+1952,6,nurburgring,Sunny,0,0,1,0,0
 1952,7,zandvoort,Rainy,0,0,0,1,0
-1952,8,monza,Sunny,1,0,0,0,0
-1953,1,galvez,Hot, dry,0,0,1,0,0
-1953,2,indianapolis,Extremely hot,1,0,0,0,0
+1952,8,monza,Sunny,0,0,1,0,0
+1953,1,galvez,Hot, dry,1,0,1,0,0
+1953,2,indianapolis,Extremely hot,1,0,1,0,0
 1953,3,zandvoort,Sunny, mild, dry,0,0,1,0,0
-1953,4,spa,Hot, dry,0,0,1,0,0
-1953,5,reims,Hot, dry,0,0,1,0,0
+1953,4,spa,Hot, dry,1,0,1,0,0
+1953,5,reims,Hot, dry,1,0,1,0,0
 1953,6,silverstone,Overcast, showers,0,0,0,1,0
 1953,7,nurburgring,Sunny, mild, dry,0,0,1,0,0
 1953,8,bremgarten,Sunny, mild, dry,0,0,1,0,0
 1953,9,monza,Sunny, mild, dry,0,0,1,0,0
 1954,1,galvez,Overcast, wet,0,0,0,1,0
-1954,2,indianapolis,Very hot and sunny,1,0,0,0,0
+1954,2,indianapolis,Very hot and sunny,1,0,1,0,0
 1954,3,spa,Sunny, mild, dry,0,0,1,0,0
 1954,4,reims,Overcast, wet,0,0,0,1,0
-1954,5,silverstone,Cold, wet (heavy rain).[1],0,0,0,1,0
+1954,5,silverstone,Cold, wet (heavy rain).[1],0,1,0,1,0
 1954,6,nurburgring,Sunny, dry,0,0,1,0,0
 1954,7,bremgarten,Rain,0,0,0,1,0
 1954,8,monza,Sunny, mild, dry,0,0,1,0,0
@@ -92,7 +92,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1960,7,silverstone,Dry, overcast.,0,0,1,0,0
 1960,8,boavista,not found,0,0,0,0,0
 1960,9,monza,Warm, dry,0,0,1,0,0
-1960,10,riverside,Temperatures up to 24.4 °C (75.9 °F),1,0,0,0,0
+1960,10,riverside,Temperatures up to 24.4 °C (75.9 °F),0,0,1,0,0
 1961,1,monaco,Sunny,1,0,0,0,0
 1961,2,zandvoort,Sunny,1,0,0,0,0
 1961,3,spa,Sunny,1,0,0,0,0
@@ -290,7 +290,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1977,9,dijon,Dry,0,0,1,0,0
 1977,10,silverstone,Sunny,1,0,0,0,0
 1977,11,hockenheimring,Dry,0,0,1,0,0
-1977,12,osterreichring,Wet, then drying,0,0,1,1,0
+1977,12,osterreichring,Wet, then drying,0,0,0,0,0
 1977,13,zandvoort,Dry,0,0,1,0,0
 1977,14,monza,Dry,0,0,1,0,0
 1977,15,watkins_glen,Rain with temperatures reaching up to 17 °C (63 °F),0,0,0,1,0
@@ -311,7 +311,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1978,13,zandvoort,Dry,0,0,1,0,0
 1978,14,monza,Sunny,1,0,0,0,0
 1978,15,watkins_glen,Cloudy, dry,0,0,1,0,0
-1978,16,villeneuve,Mostly cloudy5 °C (41 °F)[1],0,0,0,0,1
+1978,16,villeneuve,Mostly cloudy5 °C (41 °F)[1],0,0,0,0,0
 1979,1,galvez,Dry,0,0,1,0,0
 1979,2,interlagos,Dry,0,0,1,0,0
 1979,3,kyalami,Wet,0,0,0,1,0
@@ -340,12 +340,12 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1980,11,zandvoort,Sunny, Mild, Dry,0,0,1,0,0
 1980,12,imola,Sunny, Mild, Dry,0,0,1,0,0
 1980,13,villeneuve,Cold and dry with temperatures reaching up to 11 °C (52 °F),0,1,1,0,0
-1980,14,watkins_glen,Cloudy and dry with temperatures reaching up to 12 °C (54 °F),0,1,1,0,0
+1980,14,watkins_glen,Cloudy and dry with temperatures reaching up to 12 °C (54 °F),0,0,1,0,1
 1981,1,long_beach,Sunny and warm with temperatures reaching up to 71.1 °F (21.7 °C),1,0,1,0,0
 1981,2,jacarepagua,Overcast, Fresh, Rain,0,0,0,1,0
 1981,3,galvez,Sunny, Hot, Dry,0,0,1,0,0
 1981,4,imola,Rain, cold,0,1,0,0,0
-1981,5,zolder,Wet/Dry,0,0,1,1,0
+1981,5,zolder,Wet/Dry,0,0,0,0,0
 1981,6,monaco,Dry,0,0,1,0,0
 1981,7,jarama,Sunny, hot,1,0,0,0,0
 1981,8,dijon,Wet,0,0,0,1,0
@@ -409,13 +409,13 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1985,4,monaco,Dry,0,0,1,0,0
 1985,5,villeneuve,Sunny with temperatures approaching 20.5 °C (68.9 °F),0,0,1,0,0
 1985,6,detroit,Clear and cool with temperatures reaching up to 80.1 °F (26.7 °C),0,0,1,0,0
-1985,7,ricard,Dry, hot[2],1,0,1,0,0
+1985,7,ricard,Dry, hot[2],0,0,0,0,0
 1985,8,silverstone,Cool, overcast,0,0,0,0,1
 1985,9,nurburgring,Dry,0,0,1,0,0
 1985,10,osterreichring,Dry,0,0,1,0,0
 1985,11,zandvoort,Sunny,1,0,0,0,0
 1985,12,monza,Dry,0,0,1,0,0
-1985,13,spa,Wet/Dry, drying up in later stages,0,0,1,1,0
+1985,13,spa,Wet/Dry, drying up in later stages,0,0,0,0,0
 1985,14,brands_hatch,not found,0,0,0,0,0
 1985,15,kyalami,Dry,0,0,1,0,0
 1985,16,adelaide,Sunny,1,0,0,0,0
@@ -425,7 +425,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1986,4,monaco,Sunny, mild, dry,0,0,1,0,0
 1986,5,spa,Dry,0,0,1,0,0
 1986,6,villeneuve,Dry with temperatures approaching 25 °C (77 °F),0,0,1,0,0
-1986,7,detroit,Cloudy and hot with temperatures reaching up to 91 °F (33 °C),1,0,0,0,1
+1986,7,detroit,Cloudy and hot with temperatures reaching up to 91 °F (33 °C),1,0,1,0,1
 1986,8,ricard,Dry,0,0,1,0,0
 1986,9,brands_hatch,Sunny,1,0,0,0,0
 1986,10,hockenheimring,Dry,0,0,1,0,0
@@ -439,7 +439,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1987,2,imola,Sunny, warm,1,0,0,0,0
 1987,3,spa,Cloudy and cool,0,1,0,0,1
 1987,4,monaco,Sunny and warm,1,0,0,0,0
-1987,5,detroit,Clear with rain showers later on,0,0,0,1,0
+1987,5,detroit,Clear with rain showers later on,0,0,1,1,0
 1987,6,ricard,Sunny and hot,1,0,0,0,0
 1987,7,silverstone,Sunny and warm,1,0,0,0,0
 1987,8,hockenheimring,not found,0,0,0,0,0
@@ -488,7 +488,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1990,3,imola,Warm, dry, sunny,1,0,0,0,0
 1990,4,monaco,Warm, dry, sunny,1,0,0,0,0
 1990,5,villeneuve,Warm and cloudy with temperatures approaching 19.8 °C (67.6 °F),1,0,0,0,1
-1990,6,rodriguez,Overcast21 °C (70 °F)[1],0,0,1,0,0
+1990,6,rodriguez,Overcast21 °C (70 °F)[1],0,0,0,0,0
 1990,7,ricard,Hot, dry, sunny,1,0,0,0,0
 1990,8,silverstone,Hot, dry, sunny,1,0,0,0,0
 1990,9,hockenheimring,Hot, dry, sunny,1,0,0,0,0
@@ -499,12 +499,12 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1990,14,jerez,Dry, hot, sunny,1,0,0,0,0
 1990,15,suzuka,Sunny,1,0,0,0,0
 1990,16,adelaide,Sunny,1,0,0,0,0
-1991,1,phoenix,Overcast25 °C (77 °F)[1],0,0,1,0,0
+1991,1,phoenix,Overcast25 °C (77 °F)[1],0,0,0,0,0
 1991,2,interlagos,Cloudy at start, rainy later. Ambient temperature: 29.4°C (85°F).Humidity: 95%.Wind speed: 33.7 km/h (21 mph).,0,0,0,1,1
 1991,3,imola,Wet at start, dry by finish,0,0,1,1,0
 1991,4,monaco,Cloudy, mild, dry,0,0,1,0,0
 1991,5,villeneuve,Mild with temperatures approaching 25 °C (77 °F),0,0,1,0,0
-1991,6,rodriguez,Mostly Cloudy24 °C (75 °F)[1],0,0,0,0,1
+1991,6,rodriguez,Mostly Cloudy24 °C (75 °F)[1],0,0,0,0,0
 1991,7,magny_cours,not found,0,0,0,0,0
 1991,8,silverstone,Hot, dry, sunny,1,0,0,0,0
 1991,9,hockenheimring,Hot and sunny,1,0,0,0,0
@@ -516,23 +516,23 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1991,15,suzuka,Sunny, warm,1,0,0,0,0
 1991,16,adelaide,Torrential rain,0,0,0,1,0
 1992,1,kyalami,Hot, dry and dull,0,0,1,0,0
-1992,2,rodriguez,Scattered Clouds27 °C (81 °F)[1],0,0,1,0,0
+1992,2,rodriguez,Scattered Clouds27 °C (81 °F)[1],0,0,0,0,0
 1992,3,interlagos,Dry,0,0,1,0,0
 1992,4,catalunya,Dry at start, wet later,0,0,1,1,0
 1992,5,imola,Sunny,1,0,0,0,0
 1992,6,monaco,Dry,0,0,1,0,0
 1992,7,villeneuve,Dry with temperatures reaching up to 25 °C (77 °F),0,0,1,0,0
-1992,8,magny_cours,Dry, then raining,0,0,1,1,0
+1992,8,magny_cours,Dry, then raining,0,0,0,0,0
 1992,9,silverstone,Dry,0,0,1,0,0
 1992,10,hockenheimring,Dry,0,0,1,0,0
 1992,11,hungaroring,Dry,0,0,1,0,0
 1992,12,spa,Overcast, brief rain mid-race,0,0,0,1,0
 1992,13,monza,Sunny and warm,1,0,0,0,0
-1992,14,estoril,Dry, sunny, windy,1,0,1,0,0
+1992,14,estoril,Dry, sunny, windy,0,0,0,0,0
 1992,15,suzuka,Dry, warm, cloudy,0,0,0,0,1
 1992,16,adelaide,Cloudy,0,0,0,0,1
 1993,1,kyalami,Very hot and humid, with torrential thunderstorms. Air temp: 33 °C (91 °F),1,0,0,0,0
-1993,2,interlagos,Dry first then torrential rain,0,0,0,1,0
+1993,2,interlagos,Dry first then torrential rain,0,0,1,1,0
 1993,3,donington,Very cold, rain with dry spells,0,0,1,1,0
 1993,4,imola,Wet at start, dry later,0,0,1,1,0
 1993,5,catalunya,Sunny,1,0,0,0,0
@@ -544,7 +544,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1993,11,hungaroring,not found,0,0,0,0,0
 1993,12,spa,Sunny and clear,1,0,0,0,0
 1993,13,monza,Hot and sunny,1,0,0,0,0
-1993,14,estoril,Dry, sunny, windy,0,0,1,0,0
+1993,14,estoril,Dry, sunny, windy,0,0,0,0,0
 1993,15,suzuka,Dry/wet, warm, cloudy,0,0,0,0,1
 1993,16,adelaide,Sunny,1,0,0,0,0
 1994,1,interlagos,Sunny,1,0,0,0,0
@@ -569,19 +569,19 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1995,4,catalunya,Sunny,1,0,0,0,0
 1995,5,monaco,Warm, sunny,1,0,0,0,0
 1995,6,villeneuve,Cloudy at start, sunny later with temperatures reaching up to 24.3 °C (75.7 °F)Wind speeds up to 8 km/h (5.0 mph)[1],1,0,0,0,1
-1995,7,magny_cours,Cloudy, light drizzle at times,0,0,0,0,1
-1995,8,silverstone,Warm, cloudy, windy,1,0,0,0,1
-1995,9,hockenheimring,Sunny, 28°C,1,0,1,0,0
+1995,7,magny_cours,Cloudy, light drizzle at times,0,0,0,0,0
+1995,8,silverstone,Warm, cloudy, windy,0,0,0,0,0
+1995,9,hockenheimring,Sunny, 28°C,0,0,0,0,0
 1995,10,hungaroring,Sunny,1,0,0,0,0
 1995,11,spa,Cloudy, then heavy rain,0,0,0,1,0
 1995,12,monza,Sunny,1,0,0,0,0
 1995,13,estoril,Sunny,1,0,0,0,0
-1995,14,nurburgring,Rain, later dried out, air temperature 11 °C (52 °F),0,0,1,1,0
+1995,14,nurburgring,Rain, later dried out, air temperature 11 °C (52 °F),0,0,0,0,0
 1995,15,okayama,Cloudy, dry,0,0,1,0,0
-1995,16,suzuka,Rain, later dried out,0,0,1,1,0
-1995,17,adelaide,Sunny[2],0,0,1,0,0
+1995,16,suzuka,Rain, later dried out,0,0,0,0,0
+1995,17,adelaide,Sunny[2],0,0,0,0,0
 1996,1,albert_park,Dry with temperatures reaching up to 23 °C (73 °F)[1],0,0,1,0,0
-1996,2,interlagos,Wet, then drying with temperatures reaching up to 24 °C (75 °F)[1],0,0,1,1,0
+1996,2,interlagos,Wet, then drying with temperatures reaching up to 24 °C (75 °F)[1],0,0,0,0,0
 1996,3,galvez,Dry with temperatures reaching up to 21 °C (70 °F)[1],0,0,1,0,0
 1996,4,nurburgring,Cloudy, but dry,0,0,1,0,0
 1996,5,imola,Sunny,1,0,0,0,0
@@ -599,7 +599,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1997,1,albert_park,Partly Cloudy, Dry,0,0,1,0,0
 1997,2,interlagos,Overcast and dry with temperatures reaching up to 23 °C (73 °F)[1],0,0,1,0,1
 1997,3,galvez,Partially cloudy and dry, with temperatures reaching up to 21 °C (70 °F)[1],0,0,0,0,1
-1997,4,imola,Cloudy, Dry, 17 °C,0,0,1,0,1
+1997,4,imola,Cloudy, Dry, 17 °C,0,0,0,0,0
 1997,5,monaco,Overcast, cold and rain, air temperature 11 °C (52 °F),0,1,0,0,0
 1997,6,catalunya,Clear,1,0,0,0,0
 1997,7,villeneuve,Clear and mild with temperatures approaching 22.7 °C (72.9 °F)Wind speeds up to 4.1 km/h (2.5 mph)[1],1,0,0,0,0
@@ -607,16 +607,16 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1997,9,silverstone,Sunny, Dry Track,0,0,1,0,0
 1997,10,hockenheimring,Sunny, dry track,0,0,1,0,0
 1997,11,hungaroring,Sunny, Dry Track, 27°C,0,0,1,0,0
-1997,12,spa,Wet, then drying out with temperatures reaching up to 28 °C (82 °F)[1],0,0,1,1,0
+1997,12,spa,Wet, then drying out with temperatures reaching up to 28 °C (82 °F)[1],0,0,0,0,0
 1997,13,monza,Dry with temperatures reaching up to 29 °C (84 °F)[1],0,0,1,0,0
 1997,14,osterreichring,Sunny,1,0,0,0,0
 1997,15,nurburgring,Partially cloudy, mild and dry,1,0,1,0,0
-1997,16,suzuka,Sunny[1],0,0,1,0,0
+1997,16,suzuka,Sunny[1],0,0,0,0,0
 1997,17,jerez,Sunny with temperatures reaching up to 25 °C (77 °F)[3],1,0,0,0,0
 1998,1,albert_park,Clear with maximum temperatures reaching 24 degrees at the start, increasing to 30 degrees by the end of the race.,1,0,0,0,0
-1998,2,interlagos,Mostly cloudy, 31 °C (88 °F),1,0,0,0,1
-1998,3,galvez,Cloudy with variable levels of dryness,0,0,0,0,1
-1998,4,imola,Sunny, 25 °C,0,0,1,0,0
+1998,2,interlagos,Mostly cloudy, 31 °C (88 °F),0,0,0,0,0
+1998,3,galvez,Cloudy with variable levels of dryness,0,0,1,0,1
+1998,4,imola,Sunny, 25 °C,1,0,1,0,0
 1998,5,catalunya,Sunny and warm,1,0,0,0,0
 1998,6,monaco,Hot and sunny with temperatures reaching up to 22 °C (72 °F)[1],1,0,0,0,0
 1998,7,villeneuve,Cool and overcast with air temperatures reaching up to 16.0 °C (60.8 °F)Wind speeds up to 2.9 km/h (1.8 mph) reported[1],0,1,0,0,1
@@ -624,7 +624,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 1998,9,silverstone,Rain, Wet Track,0,0,0,1,0
 1998,10,osterreichring,Sunny,1,0,0,0,0
 1998,11,hockenheimring,Cloudy but dry,0,0,1,0,1
-1998,12,hungaroring,Cloudy, hot, dry, 30°C,1,0,1,0,1
+1998,12,hungaroring,Cloudy, hot, dry, 30°C,1,0,1,0,0
 1998,13,spa,Cold and wet with rain becoming heavier,0,1,0,1,0
 1998,14,monza,Sunny,1,0,0,0,0
 1998,15,nurburgring,Cloudy, cold, dry,0,0,1,0,0
@@ -652,15 +652,15 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2000,5,catalunya,Sunny, Mild, Dry,0,0,1,0,0
 2000,6,nurburgring,Dry at first, rain later on, Air: 11 °C (52 °F), Track: 12 °C (54 °F),0,0,1,1,0
 2000,7,monaco,Sunny,1,0,0,0,0
-2000,8,villeneuve,Cloudy and raining,0,0,0,1,1
+2000,8,villeneuve,Cloudy and raining,0,0,0,0,0
 2000,9,magny_cours,Sunny, dry, Air Temp: 27°C,0,0,1,0,0
 2000,10,osterreichring,Partially cloudy, dry,0,0,1,0,0
 2000,11,hockenheimring,Dry/Wet,0,0,1,1,0
 2000,12,hungaroring,Partially cloudy, very hot, dry,0,0,1,0,0
-2000,13,spa,Wet at start, drying, Air & track temperature,0,0,1,1,0
+2000,13,spa,Wet at start, drying, Air & track temperature,0,0,0,1,0
 2000,14,monza,Sunny with temperatures reaching up to 29 °C (84 °F)[3],1,0,0,0,0
 2000,15,indianapolis,Cloudy, drying, Air 12 °C (54 °F),0,0,1,0,1
-2000,16,suzuka,Dry/wet,0,0,1,1,0
+2000,16,suzuka,Dry/wet,0,0,1,0,0
 2000,17,sepang,Overcast, Very hot, Dry,0,0,1,0,0
 2001,1,albert_park,Cloudy, sunny later,1,0,0,0,0
 2001,2,sepang,Rain and Thunderstorms at start, dry later,0,0,1,1,0
@@ -672,17 +672,17 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2001,8,villeneuve,Sunny,1,0,0,0,0
 2001,9,nurburgring,Sunny, mild, dry, Air Temp: 21°C,0,0,1,0,0
 2001,10,magny_cours,Sunny,1,0,0,0,0
-2001,11,silverstone,Partially cloudy, mild, dry, Air Temp: 16 °C (61 °F), Track 27 °C (81 °F),0,0,1,0,1
+2001,11,silverstone,Partially cloudy, mild, dry, Air Temp: 16 °C (61 °F), Track 27 °C (81 °F),0,0,1,0,0
 2001,12,hockenheimring,Partially cloudy, very hot, dry,0,0,1,0,0
 2001,13,hungaroring,Hot, dry and partially cloudy,0,0,1,0,1
 2001,14,spa,Overcast, mild, dry, Air Temp: 12 to 16 °C (54 to 61 °F),0,0,1,0,0
 2001,15,monza,Sunny, partly cloudy, Air: 19 to 20 °C (66 to 68 °F), Track 26 °C (79 °F),0,0,1,0,1
-2001,16,indianapolis,Sunny, cool, Air: 19–21 °C (66–70 °F),0,0,1,0,0
+2001,16,indianapolis,Sunny, cool, Air: 19–21 °C (66–70 °F),1,1,0,0,0
 2001,17,suzuka,Cloudy, Mild, Dry, Air Temp: 24°C,0,0,1,0,1
 2002,1,albert_park,Cloudy at start, clearing to sunny skies.,1,0,0,0,1
 2002,2,sepang,Partially cloudy, hot and dry,1,0,1,0,0
 2002,3,interlagos,Clear, Air Temp: 30°C,1,0,1,0,0
-2002,4,imola,Scattered thunderstorms, but remaining dry. Air Temp: 18°C,0,0,1,0,0
+2002,4,imola,Scattered thunderstorms, but remaining dry. Air Temp: 18°C,0,0,0,1,0
 2002,5,catalunya,Clear, Air Temp: 20°C,0,0,1,0,0
 2002,6,osterreichring,Clear, Air Temp: 20°C,0,0,1,0,0
 2002,7,monaco,Fine,0,0,1,0,0
@@ -694,10 +694,10 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2002,13,hungaroring,Partially cloudy, hot and sunny, Air Temp: 28 °C (82 °F)[1],1,0,0,0,0
 2002,14,spa,Cloudy, Air: 17 °C (63 °F), Track 25 °C (77 °F)[1],0,0,0,0,1
 2002,15,monza,Sunny, hot, dry 23°C,0,0,1,0,0
-2002,16,indianapolis,Sunny with temperatures reaching up to 26.7 °C (80.1 °F),0,0,1,0,0
-2002,17,suzuka,Sunny, Air: 26 °C (79 °F), Track 30 °C (86 °F),0,0,1,0,0
+2002,16,indianapolis,Sunny with temperatures reaching up to 26.7 °C (80.1 °F),1,0,1,0,0
+2002,17,suzuka,Sunny, Air: 26 °C (79 °F), Track 30 °C (86 °F),1,0,1,0,0
 2003,1,albert_park,Damp at beginning, dry later, cloudy, mild,1,0,1,1,0
-2003,2,sepang,Fine, air temperature 34°C (93°F),0,0,1,0,0
+2003,2,sepang,Fine, air temperature 34°C (93°F),1,0,1,0,0
 2003,3,interlagos,Rainy: 20 °C (68 °F),0,0,0,1,0
 2003,4,imola,Mostly cloudy with maximum ambient temperatures reaching 13 degrees during the day.,0,0,0,0,1
 2003,5,catalunya,Clear,1,0,0,0,0
@@ -739,10 +739,10 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2005,7,nurburgring,Partly cloudy, hot and dry,1,0,1,0,0
 2005,8,villeneuve,Cloudy and hot with temperatures approaching 32.5 °C (90.5 °F)Wind speeds up to 5.1 km/h (3.2 mph)[1]Track 43–47 °C (109–117 °F),1,0,0,0,1
 2005,9,indianapolis,Cloudy, temperatures up to 25.0 °C (77.0 °F),0,0,0,0,1
-2005,10,magny_cours,Sunny, Air: 32 °C (90 °F), Track 53 °C (127 °F),0,0,1,0,0
-2005,11,silverstone,Sunny, Air: 27 °C (81 °F), Track 47 °C (117 °F),0,0,1,0,0
+2005,10,magny_cours,Sunny, Air: 32 °C (90 °F), Track 53 °C (127 °F),1,0,1,0,0
+2005,11,silverstone,Sunny, Air: 27 °C (81 °F), Track 47 °C (117 °F),1,0,1,0,0
 2005,12,hockenheimring,Cloudy with drizzle, but staying dry during the race. Air temp: 24°C.,0,0,1,0,1
-2005,13,hungaroring,Sunny, Air: 34 °C (93 °F), Track 45 °C (113 °F),0,0,1,0,0
+2005,13,hungaroring,Sunny, Air: 34 °C (93 °F), Track 45 °C (113 °F),1,0,1,0,0
 2005,14,istanbul,Sunny,0,0,1,0,0
 2005,15,monza,Sunny,1,0,0,0,0
 2005,16,spa,Wet and dry,0,0,1,1,0
@@ -750,7 +750,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2005,18,suzuka,Partially cloudy and dry with temperatures reaching up to 25 °C (77 °F)[1],0,0,1,0,1
 2005,19,shanghai,Sunny,1,0,0,0,0
 2006,1,bahrain,Fine, Dry and HotAir Temp 23 °C (73 °F)[1]Track Temp 40 °C (104 °F)[1] dropping to 34 °C (93 °F),0,0,1,0,0
-2006,2,sepang,Fine, Air Temp: 33°C, Wind Speed: 1.5 m/s, Humidity: 61%,0,0,1,0,0
+2006,2,sepang,Fine, Air Temp: 33°C, Wind Speed: 1.5 m/s, Humidity: 61%,1,0,1,0,0
 2006,3,albert_park,Cloudy with sunny breaks. Air temperature 20°C,1,0,0,0,1
 2006,4,imola,Sunny,1,0,0,0,0
 2006,5,nurburgring,not found,0,0,0,0,0
@@ -777,7 +777,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2007,8,magny_cours,Cloudy,0,0,0,0,1
 2007,9,silverstone,Dry and sunny,1,0,1,0,0
 2007,10,nurburgring,Heavy Rain on Lap 1. Drying track at restart. Light Rain before the finish.,0,0,0,1,0
-2007,11,hungaroring,Sunny, temperatures reaching up to 27 °C (81 °F)[1],0,0,1,0,0
+2007,11,hungaroring,Sunny, temperatures reaching up to 27 °C (81 °F)[1],1,0,1,0,0
 2007,12,istanbul,Sunny,1,0,0,0,0
 2007,13,monza,Sunny,1,0,0,0,0
 2007,14,spa,Partly cloudy, mild and dry,1,0,1,0,0
@@ -791,14 +791,14 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2008,5,istanbul,Sunny with temperatures reaching up to 17 °C (63 °F)[3],1,0,0,0,0
 2008,6,monaco,Wet, drying later.,0,0,1,1,0
 2008,7,villeneuve,Hot with temperatures approaching 31 °C (88 °F),1,0,1,0,0
-2008,8,magny_cours,Dry at first,0,0,1,0,0
+2008,8,magny_cours,Dry at first,0,0,1,1,0
 2008,9,silverstone,Rain, later drying,0,0,1,1,0
 2008,10,hockenheimring,Cloudy, later sunny[1],0,0,1,0,1
 2008,11,hungaroring,Sunny,0,0,1,0,0
 2008,12,valencia,Sunny,1,0,0,0,0
 2008,13,spa,Cloudy, rain in last 3 laps,0,0,0,1,0
 2008,14,monza,Heavy rain, dry towards the end,0,0,1,0,0
-2008,15,marina_bay,Dry, Air Temp: 28 °C (82 °F), Wind Speed: 2.2 metres per second (7.2 ft/s), Humidity: 79%,0,0,1,0,0
+2008,15,marina_bay,Dry, Air Temp: 28 °C (82 °F), Wind Speed: 2.2 metres per second (7.2 ft/s), Humidity: 79%,0,0,0,0,0
 2008,16,fuji,Cloudy with temperatures reaching up to 17 °C (63 °F)[4],0,0,0,0,1
 2008,17,shanghai,Dry,0,0,1,0,0
 2008,18,interlagos,Rain at beginning and end, otherwise drying,0,0,0,1,0
@@ -811,7 +811,7 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2009,7,istanbul,Sunny,1,0,0,0,0
 2009,8,silverstone,Dry, overcast,0,0,0,0,1
 2009,9,nurburgring,Sunny and overcast,1,0,0,0,1
-2009,10,hungaroring,Sunny25 °C (77 °F)[2],0,0,1,0,0
+2009,10,hungaroring,Sunny25 °C (77 °F)[2],0,0,0,0,0
 2009,11,valencia,Hot and dry with temperatures reaching up to 33 °C (91 °F)[1],1,0,1,0,0
 2009,12,spa,Clear but Mild,1,0,0,0,0
 2009,13,monza,Mainly sunny,1,0,0,0,0
@@ -825,20 +825,20 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2010,4,shanghai,Cloudy, rain,0,0,0,1,0
 2010,5,catalunya,Mainly cloudy, dry,0,0,1,0,0
 2010,6,monaco,Mainly cloudy, dry,0,0,1,0,0
-2010,7,istanbul,Air: 28 to 29 °C (82 to 84 °F) Track: 39 to 49 °C (102 to 120 °F),0,0,1,0,0
+2010,7,istanbul,Air: 28 to 29 °C (82 to 84 °F) Track: 39 to 49 °C (102 to 120 °F),0,0,0,0,0
 2010,8,villeneuve,Warm with temperatures approaching 26 °C (79 °F),1,0,1,0,0
-2010,9,valencia,Dry[3],0,0,1,0,0
+2010,9,valencia,Dry[3],0,0,0,0,0
 2010,10,silverstone,Mainly sunny,1,0,0,0,0
-2010,11,hockenheimring,Mainly cloudy, dry[4],0,0,1,0,1
-2010,12,hungaroring,Mainly sunny28 °C (82 °F)[1],0,0,1,0,0
+2010,11,hockenheimring,Mainly cloudy, dry[4],0,0,0,0,0
+2010,12,hungaroring,Mainly sunny28 °C (82 °F)[1],0,0,0,0,0
 2010,13,spa,Intermittent rain,0,0,0,1,0
 2010,14,monza,Sunny,1,0,0,0,0
 2010,15,marina_bay,Clear,0,0,1,0,0
 2010,16,suzuka,Sunny,1,0,0,0,0
 2010,17,yeongam,Rain,0,0,0,1,0
 2010,18,interlagos,Clear,0,0,1,0,0
-2010,19,yas_marina,Dry[3] Air Temp 28 °C (82 °F)[3] Track Temp 33 °C (91 °F) dropping to 29 °C (84 °F)[3],0,0,1,0,0
-2011,1,albert_park,Sunny, 18°C,0,0,1,0,0
+2010,19,yas_marina,Dry[3] Air Temp 28 °C (82 °F)[3] Track Temp 33 °C (91 °F) dropping to 29 °C (84 °F)[3],0,0,0,0,0
+2011,1,albert_park,Sunny, 18°C,0,0,0,0,0
 2011,2,sepang,Cloudy, dry,0,0,1,0,0
 2011,3,shanghai,Fine and Dry[1] Air Temp 22 °C (72 °F)[1] Track Temp 32 °C (90 °F) dropping to 26 °C (79 °F)[1],1,0,0,0,0
 2011,4,istanbul,Sunny, Fine and Dry[2] Air Temp 17 °C (63 °F)[2] Track Temp 35 °C (95 °F) dropping to 30 °C (86 °F)[2],1,0,0,0,0
@@ -857,15 +857,15 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2011,17,buddh,Fine and Dry Air Temp 30 °C (86 °F)[1],1,0,1,0,0
 2011,18,yas_marina,Fine and Dry Air Temp 25 °C (77 °F)[1],1,0,1,0,0
 2011,19,interlagos,Fine Air Temp 24 °C (75 °F) Track Temp 43 °C (109 °F)[1],1,0,0,0,0
-2012,1,albert_park,Fine[1] Air Temp 22 °C (72 °F)[1] Track Temp 30 °C (86 °F) dropping to 22 °C (72 °F)[1],0,0,1,0,0
+2012,1,albert_park,Fine[1] Air Temp 22 °C (72 °F)[1] Track Temp 30 °C (86 °F) dropping to 22 °C (72 °F)[1],0,0,0,0,0
 2012,2,sepang,Heavy rain clearing to cloudy and dry[2] Air Temp 26 °C (79 °F)[2]  Track Temp 29 °C (84 °F) dropping to 24 °C (75 °F) [2],0,0,0,1,1
 2012,3,shanghai,Overcast but Dry[1] Air Temp 22 °C (72 °F)[1] Track Temp 23 °C (73 °F)[1],0,0,0,0,1
 2012,4,bahrain,Sunny and hot[1][2] Air Temp 27 °C (81 °F)[2] Track Temp 33 °C (91 °F) dropping to 29 °C (84 °F)[2],1,0,0,0,0
-2012,5,catalunya,Partially cloudy, dry: Air 23 °C (73 °F), Track 36 °C (97 °F),0,0,1,0,1
+2012,5,catalunya,Partially cloudy, dry: Air 23 °C (73 °F), Track 36 °C (97 °F),0,0,0,0,0
 2012,6,monaco,Fine and Dry, showers threatening at end[2] Air Temp 21 °C (70 °F)[2] Track Temp 38 °C (100 °F) dropping to 31 °C (88 °F)[2],1,0,0,1,0
 2012,7,villeneuve,Fine, dry and warm,1,0,1,0,0
 2012,8,valencia,Fine and Dry[2] Air Temp 27 °C (81 °F)[2] Track Temp 45 °C (113 °F)[2],1,0,0,0,0
-2012,9,silverstone,DryAir Temp 20 °C (68 °F)[2]Track Temp 31 °C (88 °F)[2],0,0,1,0,0
+2012,9,silverstone,DryAir Temp 20 °C (68 °F)[2]Track Temp 31 °C (88 °F)[2],0,0,0,0,0
 2012,10,hockenheimring,Fine and Dry[2] Air Temp 22 °C (72 °F)[2] Track Temp 30 °C (86 °F)[2],1,0,0,0,0
 2012,11,hungaroring,Fine and Dry. Very Hot[2][3] Air Temp 30 °C (86 °F)[3] Track Temp 45 °C (113 °F)[3],1,0,0,0,0
 2012,12,spa,Fine and Dry[2] Air Temp 23 °C (73 °F)[2] Track Temp 33 °C (91 °F)[2],1,0,0,0,0
@@ -873,9 +873,9 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2012,14,marina_bay,Hot and humid[2]Air Temp 29 °C (84 °F)[2]Track Temp 31 °C (88 °F)[2],1,0,0,0,0
 2012,15,suzuka,Fine and Dry[2] Air Temp 23 °C (73 °F)[2] Track Temp 32 °C (90 °F)[2],1,0,0,0,0
 2012,16,yeongam,Fine and Dry[3] Air Temp 21 °C (70 °F)[3] Track Temp 27 °C (81 °F) dropping to 23 °C (73 °F)[3],1,0,0,0,0
-2012,17,buddh,Fine, Dry, a little hazy and a little dusty[2] Air Temp 30 °C (86 °F)[2] Track Temp 36 °C (97 °F) dropping to 31 °C (88 °F)[2],0,0,1,0,1
-2012,18,yas_marina,Dry[2] Air Temp 29 °C (84 °F)[2] Track Temp 34 °C (93 °F) dropping to 29 °C (84 °F)[2],0,0,1,0,0
-2012,19,americas,Scattered clouds[2][3]Air temp 24 °C (75 °F)[3]Track temp 32 °C (90 °F)[3],0,0,1,0,0
+2012,17,buddh,Fine, Dry, a little hazy and a little dusty[2] Air Temp 30 °C (86 °F)[2] Track Temp 36 °C (97 °F) dropping to 31 °C (88 °F)[2],0,0,0,0,0
+2012,18,yas_marina,Dry[2] Air Temp 29 °C (84 °F)[2] Track Temp 34 °C (93 °F) dropping to 29 °C (84 °F)[2],0,0,0,0,0
+2012,19,americas,Scattered clouds[2][3]Air temp 24 °C (75 °F)[3]Track temp 32 °C (90 °F)[3],0,0,0,0,0
 2012,20,interlagos,Race start: drops of rain, light rain shower getting heavier at the end.[2] Air Temp 19 °C (66 °F)[2] Track Temp 21 °C (70 °F)[2],0,0,0,1,0
 2013,1,albert_park,Scattered Clouds, Fine and Dry[2] Air Temp 18 °C (64 °F)[2] Track Temp 25 °C (77 °F) dropping to 19 °C (66 °F)[2],1,0,0,0,0
 2013,2,sepang,Light rain clearing to cloudy and dry,0,0,1,1,1
@@ -892,16 +892,16 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2013,13,marina_bay,Dry and 29 degrees,0,0,1,0,0
 2013,14,yeongam,Cloudy with maximum temperatures reaching 29 degrees during the day,0,0,0,0,1
 2013,15,suzuka,Warm and sunny,1,0,0,0,0
-2013,16,buddh,Sunny, haze,0,0,1,0,1
+2013,16,buddh,Sunny, haze,0,0,0,0,0
 2013,17,yas_marina,Clear,1,0,0,0,0
-2013,18,americas,Partly cloudy, warmTemperatures reaching up to 89.1 °F (31.7 °C),1,0,0,0,1
-2013,19,interlagos,Cloudy, Air Temp: 18°C,0,0,0,0,1
-2014,1,albert_park,Overcast, 19 °C(66 °F),0,0,1,0,0
-2014,2,sepang,Dry, 32°C,0,0,1,0,0
+2013,18,americas,Partly cloudy, warmTemperatures reaching up to 89.1 °F (31.7 °C),1,0,1,0,1
+2013,19,interlagos,Cloudy, Air Temp: 18°C,0,0,0,0,0
+2014,1,albert_park,Overcast, 19 °C(66 °F),0,0,0,0,0
+2014,2,sepang,Dry, 32°C,0,0,0,0,0
 2014,3,bahrain,Dry,0,0,1,0,0
 2014,4,shanghai,Mostly cloudy, dry,0,0,1,0,0
 2014,5,catalunya,Sunny,1,0,0,0,0
-2014,6,monaco,Overcast, Air: 20 to 21 °C (68 to 70 °F), Track: 28 to 30 °C (82 to 86 °F).,0,0,1,0,0
+2014,6,monaco,Overcast, Air: 20 to 21 °C (68 to 70 °F), Track: 28 to 30 °C (82 to 86 °F).,0,0,0,0,0
 2014,7,villeneuve,Temperatures up to 27.6 °C (81.7 °F),0,0,1,0,0
 2014,8,red_bull_ring,Partially cloudy, hot and dry,1,0,1,0,0
 2014,9,silverstone,Mostly cloudy with maximum temperatures reaching 21 degrees during the day.,0,0,0,0,1
@@ -909,47 +909,47 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2014,11,hungaroring,Overcast. Wet track at start, then drying. Scattered thunderstorms during the day, temperatures reaching a maximum of 26 degrees.[1],0,0,0,1,0
 2014,12,spa,Mostly cloudy,0,0,0,0,1
 2014,13,monza,Sunny,0,0,1,0,0
-2014,14,marina_bay,Clear. Air: 28 to 30 °C (82 to 86 °F) Track: 33 to 37 °C (91 to 99 °F).,0,0,1,0,0
-2014,15,suzuka,Rain. Air: 20 °C (68 °F) Track: 24 °C (75 °F),0,0,0,1,0
+2014,14,marina_bay,Clear. Air: 28 to 30 °C (82 to 86 °F) Track: 33 to 37 °C (91 to 99 °F).,0,0,0,0,0
+2014,15,suzuka,Rain. Air: 20 °C (68 °F) Track: 24 °C (75 °F),0,0,0,0,0
 2014,16,sochi,Fine and dry,0,0,1,0,0
-2014,17,americas,Sunny,,0,0,1,0,0
-2014,18,interlagos,Sunny, Air: 23 to 24 °C (73 to 75 °F), Track: 46 to 50 °C (115 to 122 °F),0,0,1,0,0
+2014,17,americas,Sunny,,0,0,0,0,0
+2014,18,interlagos,Sunny, Air: 23 to 24 °C (73 to 75 °F), Track: 46 to 50 °C (115 to 122 °F),0,0,0,0,0
 2014,19,yas_marina,Clear skies,0,0,1,0,0
-2015,1,albert_park,Partly cloudy17–18 °C (63–64 °F) air temperature32–37 °C (90–99 °F) track temperature6 m/s (20 ft/s) wind from the south[3],0,0,1,0,1
-2015,2,sepang,Sunny32–33 °C (90–91 °F) air temperature53–58 °C (127–136 °F) track temperature2 m/s (6.6 ft/s) wind from the south[3],0,0,1,0,0
-2015,3,shanghai,Sunny21 °C (70 °F) air temperature46 °C (115 °F) track temperature1.4 m/s (4.6 ft/s) wind from the northwest[1],0,0,1,0,0
-2015,4,bahrain,Sunny, clear24–26 °C (75–79 °F) air temperature28–31 °C (82–88 °F) track temperature1.5 m/s (4.9 ft/s) wind from the north[1],0,0,1,0,0
-2015,5,catalunya,Sunny25 °C (77 °F) air temperature44 °C (111 °F) track temperature1.8 m/s (5.9 ft/s) wind from the northeast[3],0,0,1,0,0
-2015,6,monaco,Partly cloudy18–19 °C (64–66 °F) air temperature31–37 °C (88–99 °F) track temperature1.5 m/s (4.9 ft/s) wind from the west[2],0,0,1,0,1
-2015,7,villeneuve,Sunny20–21 °C (68–70 °F) air temperature39 °C (102 °F) track temperature4 m/s (13 ft/s) wind from the north[2],0,0,1,0,0
-2015,8,red_bull_ring,Cloudy14–15 °C (57–59 °F) air temperature27–32 °C (81–90 °F) track temperature2 m/s (6.6 ft/s) wind from the west[2],0,0,0,0,1
+2015,1,albert_park,Partly cloudy17–18 °C (63–64 °F) air temperature32–37 °C (90–99 °F) track temperature6 m/s (20 ft/s) wind from the south[3],0,0,0,0,0
+2015,2,sepang,Sunny32–33 °C (90–91 °F) air temperature53–58 °C (127–136 °F) track temperature2 m/s (6.6 ft/s) wind from the south[3],0,0,0,0,0
+2015,3,shanghai,Sunny21 °C (70 °F) air temperature46 °C (115 °F) track temperature1.4 m/s (4.6 ft/s) wind from the northwest[1],0,0,0,0,0
+2015,4,bahrain,Sunny, clear24–26 °C (75–79 °F) air temperature28–31 °C (82–88 °F) track temperature1.5 m/s (4.9 ft/s) wind from the north[1],0,0,0,0,0
+2015,5,catalunya,Sunny25 °C (77 °F) air temperature44 °C (111 °F) track temperature1.8 m/s (5.9 ft/s) wind from the northeast[3],0,0,0,0,0
+2015,6,monaco,Partly cloudy18–19 °C (64–66 °F) air temperature31–37 °C (88–99 °F) track temperature1.5 m/s (4.9 ft/s) wind from the west[2],0,0,0,0,0
+2015,7,villeneuve,Sunny20–21 °C (68–70 °F) air temperature39 °C (102 °F) track temperature4 m/s (13 ft/s) wind from the north[2],0,0,0,0,0
+2015,8,red_bull_ring,Cloudy14–15 °C (57–59 °F) air temperature27–32 °C (81–90 °F) track temperature2 m/s (6.6 ft/s) wind from the west[2],0,0,0,0,0
 2015,9,silverstone,Cloudy, rain at times17–20 °C (63–68 °F) air temperature24–32 °C (75–90 °F) track temperature2.5 m/s (8.2 ft/s) wind from the east[2],0,0,0,1,0
-2015,10,hungaroring,Sunny22–24 °C (72–75 °F) air temperature41–48 °C (106–118 °F) track temperature3.2 m/s (10 ft/s) wind from the east[2],0,0,1,0,0
-2015,11,spa,Cloudy23 °C (73 °F) air temperature33–37 °C (91–99 °F) track temperature3.5 m/s (11 ft/s) wind from the northwest[2],0,0,0,0,1
-2015,12,monza,Partly cloudy22–23 °C (72–73 °F) air temperature38–39 °C (100–102 °F) track temperature1.5 m/s (4.9 ft/s) wind from changing directions[2],0,0,1,0,1
-2015,13,marina_bay,Dry28–29 °C (82–84 °F) air temperature34–36 °C (93–97 °F) track temperature0.5 m/s (1.6 ft/s) wind from the west[2],0,0,1,0,0
-2015,14,suzuka,Partly cloudy27 °C (81 °F) air temperature52–54 °C (126–129 °F) track temperature4.5 m/s (15 ft/s) wind from the east[2],0,0,1,0,1
-2015,15,sochi,Partly cloudy18 °C (64 °F) air temperature25–27 °C (77–81 °F) track temperature1.5 m/s (4.9 ft/s) wind from the north[2],0,0,1,0,1
-2015,16,americas,Very cloudy17 °C (63 °F) air temperature17–20 °C (63–68 °F) track temperature8 m/s (26 ft/s) wind from the south[2],0,0,0,0,1
-2015,17,rodriguez,Partly cloudy22–24 °C (72–75 °F) air temperature48–56 °C (118–133 °F) track temperature1.5 m/s (4.9 ft/s) wind from the northwest[2],0,0,1,0,1
-2015,18,interlagos,Dry22–28 °C (72–82 °F) air temperature38–48 °C (100–118 °F) track temperature2.5 m/s (8.2 ft/s) wind from the north[2],0,0,1,0,0
-2015,19,yas_marina,Clear25–27 °C (77–81 °F) air temperature28–29 °C (82–84 °F) track temperature1.5 m/s (4.9 ft/s) wind from the south[3],0,0,1,0,0
+2015,10,hungaroring,Sunny22–24 °C (72–75 °F) air temperature41–48 °C (106–118 °F) track temperature3.2 m/s (10 ft/s) wind from the east[2],0,0,0,0,0
+2015,11,spa,Cloudy23 °C (73 °F) air temperature33–37 °C (91–99 °F) track temperature3.5 m/s (11 ft/s) wind from the northwest[2],0,0,0,0,0
+2015,12,monza,Partly cloudy22–23 °C (72–73 °F) air temperature38–39 °C (100–102 °F) track temperature1.5 m/s (4.9 ft/s) wind from changing directions[2],0,0,0,0,0
+2015,13,marina_bay,Dry28–29 °C (82–84 °F) air temperature34–36 °C (93–97 °F) track temperature0.5 m/s (1.6 ft/s) wind from the west[2],0,0,0,0,0
+2015,14,suzuka,Partly cloudy27 °C (81 °F) air temperature52–54 °C (126–129 °F) track temperature4.5 m/s (15 ft/s) wind from the east[2],0,0,0,0,0
+2015,15,sochi,Partly cloudy18 °C (64 °F) air temperature25–27 °C (77–81 °F) track temperature1.5 m/s (4.9 ft/s) wind from the north[2],0,0,0,0,0
+2015,16,americas,Very cloudy17 °C (63 °F) air temperature17–20 °C (63–68 °F) track temperature8 m/s (26 ft/s) wind from the south[2],0,0,0,0,0
+2015,17,rodriguez,Partly cloudy22–24 °C (72–75 °F) air temperature48–56 °C (118–133 °F) track temperature1.5 m/s (4.9 ft/s) wind from the northwest[2],0,0,0,0,0
+2015,18,interlagos,Dry22–28 °C (72–82 °F) air temperature38–48 °C (100–118 °F) track temperature2.5 m/s (8.2 ft/s) wind from the north[2],0,0,0,0,0
+2015,19,yas_marina,Clear25–27 °C (77–81 °F) air temperature28–29 °C (82–84 °F) track temperature1.5 m/s (4.9 ft/s) wind from the south[3],0,0,0,0,0
 2016,1,albert_park,Partly cloudy22–23 °C (72–73 °F) air temperature26–36 °C (79–97 °F) track temperature4 m/s (8.9 mph,0,0,1,0,1
-2016,2,bahrain,Dry21–22 °C (70–72 °F) air temperature26–29 °C (79–84 °F) track temperature2 m/s (6.6 ft/s) wind from the southwest[4],0,0,1,0,0
-2016,3,shanghai,Sunny21 °C (70 °F) air temperature37 °C (99 °F) track temperature4.8 m/s (16 ft/s) wind from the northeast[4],1,0,1,0,0
-2016,4,sochi,Partly cloudy16 °C (61 °F) air temperature37–41 °C (99–106 °F) track temperature2.5 m/s (8.2 ft/s) wind from the southwest[4],0,0,1,0,1
-2016,5,catalunya,Partly cloudy20–22 °C (68–72 °F) air temperature39–41 °C (102–106 °F) track temperature2 m/s (6.6 ft/s) wind from the north[4],0,0,1,0,1
+2016,2,bahrain,Dry21–22 °C (70–72 °F) air temperature26–29 °C (79–84 °F) track temperature2 m/s (6.6 ft/s) wind from the southwest[4],0,0,0,0,0
+2016,3,shanghai,Sunny21 °C (70 °F) air temperature37 °C (99 °F) track temperature4.8 m/s (16 ft/s) wind from the northeast[4],0,0,0,0,0
+2016,4,sochi,Partly cloudy16 °C (61 °F) air temperature37–41 °C (99–106 °F) track temperature2.5 m/s (8.2 ft/s) wind from the southwest[4],0,0,0,0,0
+2016,5,catalunya,Partly cloudy20–22 °C (68–72 °F) air temperature39–41 °C (102–106 °F) track temperature2 m/s (6.6 ft/s) wind from the north[4],0,0,0,0,0
 2016,6,monaco,Rainy at start, dry later17–18 °C (63–64 °F) air temperature20–22 °C (68–72 °F) track temperature2 m/s (6.6 ft/s) wind from the north[4],0,0,1,1,0
-2016,7,villeneuve,Cloudy12 °C (54 °F) air temperature21–23 °C (70–73 °F) track temperature2.5 m/s (8.2 ft/s) wind from the southeast[4],0,0,0,0,1
-2016,8,BAK,Partly cloudy30–33 °C (86–91 °F) air temperature39–45 °C (102–113 °F) track temperature2.5 m/s (8.2 ft/s) wind from the southeast[4],0,0,1,0,1
+2016,7,villeneuve,Cloudy12 °C (54 °F) air temperature21–23 °C (70–73 °F) track temperature2.5 m/s (8.2 ft/s) wind from the southeast[4],0,0,0,0,0
+2016,8,BAK,Partly cloudy30–33 °C (86–91 °F) air temperature39–45 °C (102–113 °F) track temperature2.5 m/s (8.2 ft/s) wind from the southeast[4],0,0,0,0,0
 2016,9,red_bull_ring,Cloudy,0,0,0,0,1
 2016,10,silverstone,Wet at start, dry later,0,0,1,1,0
 2016,11,hungaroring,Sunny,1,0,0,0,0
 2016,12,hockenheimring,Partially cloudy and dry,0,0,1,0,1
 2016,13,spa,Partially cloudy and dry,0,0,1,0,1
 2016,14,monza,Sunny, warm,1,0,0,0,0
-2016,15,marina_bay,Clear30 °C (86 °F) air temperature34–35 °C (93–95 °F) track temperature1.5 m/s (4.9 ft/s) wind from the east[2],0,0,1,0,0
-2016,16,sepang,Sunny33 °C (91 °F) air temperature49 °C (120 °F) track temperature2.8 m/s (9.2 ft/s) wind from the west[2],0,0,1,0,0
+2016,15,marina_bay,Clear30 °C (86 °F) air temperature34–35 °C (93–95 °F) track temperature1.5 m/s (4.9 ft/s) wind from the east[2],0,0,0,0,0
+2016,16,sepang,Sunny33 °C (91 °F) air temperature49 °C (120 °F) track temperature2.8 m/s (9.2 ft/s) wind from the west[2],0,0,0,0,0
 2016,17,suzuka,Cloudy,0,0,0,0,1
 2016,18,americas,Sunny and hot with temperatures reaching up to 84 °F (29 °C),1,0,1,0,0
 2016,19,rodriguez,Sunny,1,0,0,0,0
@@ -1004,13 +1004,13 @@ season,round,circuit_id,weather,warm,cold,dry,wet,cloudy
 2019,6,monaco,Overcast,0,0,0,0,1
 2019,7,villeneuve,Temperatures reaching up to 29.6 °C (85.3 °F),0,0,1,0,0
 2019,8,ricard,Clear,1,0,0,0,0
-2019,9,red_bull_ring,Sunny, 36C (97F),1,0,1,0,0
+2019,9,red_bull_ring,Sunny, 36C (97F),0,0,0,0,0
 2019,10,silverstone,Partly cloudy,0,0,0,0,1
 2019,11,hockenheimring,Early rain, Late clouds,0,0,0,0,1
 2019,12,hungaroring,Sunny,1,0,0,0,0
 2019,13,spa,Partly cloudy,0,0,0,0,1
 2019,14,monza,Partly cloudy,0,0,0,0,1
-2019,15,marina_bay,Slightly hazy,0,0,0,0,1
+2019,15,marina_bay,Slightly hazy,0,0,0,0,0
 2019,16,sochi,Partly cloudy,0,0,0,0,1
 2019,17,suzuka,Sunny,1,0,0,0,0
 2019,18,rodriguez,Partly cloudy,0,0,0,0,1
